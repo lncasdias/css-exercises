@@ -19,7 +19,9 @@ body {
   font-weight: 800;
 }
 
-.confirm {
+/* Changed . to # due to confirm being an ID */
+
+#confirm {
   background: green;
   color: white;
   font-weight: bold;
