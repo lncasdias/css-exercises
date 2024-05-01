@@ -19,7 +19,7 @@ body {
   font-weight: 800;
 }
 
-/* Changed . to # due to confirm being an ID */
+/* .button changes the Cancel button, but #confirm-button has its own unique style*/
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -33,14 +33,16 @@ body {
   font-weight: bold;
 } 
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+/* Changed the order to see what I get*/
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
