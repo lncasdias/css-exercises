@@ -33,7 +33,7 @@ body {
   font-weight: bold;
 } 
 
-/* Changed the order to see what I get*/
+/* Nothing changed with the order, changed the .child to .text.child*/
 
 div.text {
   color: rgb(0, 0, 0);
@@ -41,7 +41,7 @@ div.text {
   font-weight: 100;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
