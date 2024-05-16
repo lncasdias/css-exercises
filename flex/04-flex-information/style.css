@@ -24,3 +24,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* ch-ch-changes */
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 52px;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
