@@ -43,24 +43,34 @@ body {
   align-items: center;
 }
 
+/* creating a container for the sidebar so I could stretch until the end of the page */
+.body {
+  flex: 1;
+  display: flex;
+}
+
+/* flex-shrink to 0 so it could not shrink */
+.sidebar {
+  display: flex;
+  padding: 16px;
+  flex-shrink: 0;
+}
+
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 24px;
 }
 
+li {
+  margin-bottom: 16px;
+}
+
+/* changes in font are usually done in a? */
 a {
   color:aliceblue;
   text-decoration: none;
-}
-
-.sidebar {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  align-items: stretch;
-  padding: 16px;
+  font-size: 24px;
 }
 
 .container {
@@ -72,6 +82,7 @@ a {
 
 .card {
   width: 300px;
+  padding: 16px;
 }
 
 .footer {
